@@ -36,7 +36,7 @@
         </table>
     </div>
     <div style="margin-left:70px; margin-bottom:100px;">
-        <asp:HyperLink ID="HyperLink3" NavigateUrl="AdminSertifikalarimEkle.aspx" runat="server" CssClass="btn btn-success">Eğitim Ekle</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" NavigateUrl="AdminSertifikalarimEkle.aspx" runat="server" CssClass="btn btn-success">Sertifika Ekle</asp:HyperLink>
     </div>
     <br />
     <br />

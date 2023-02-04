@@ -29,7 +29,7 @@ namespace Cv
         {
             DataSet1TableAdapters.TBLEGITIMTableAdapter dt = new DataSet1TableAdapters.TBLEGITIMTableAdapter();
             dt.EgitimimGuncelle(TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox5.Text, TextBox6.Text, 
-                Convert.ToByte(TextBox1));
+                Convert.ToByte(TextBox1.Text));
             Response.Redirect("AdminEgitimim.aspx");
         }
     }

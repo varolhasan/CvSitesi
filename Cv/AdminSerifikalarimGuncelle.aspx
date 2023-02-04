@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <formview id="Form1" runat="server" class="form-group" method="post">
+      <formview id="Form1" runat="server" class="form-group">
         <div class="form-group" style="margin: 80px; margin-top: 15px;">
             <div style="margin-bottom: 15px;">
                 <asp:Label ID="Label1" runat="server" Text="ID"></asp:Label>
@@ -21,7 +21,7 @@
                 <asp:TextBox ID="TextBox4" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
 
-            <asp:Button ID="Button1" runat="server"  Text="Güncelle" CssClass="btn btn-primary"/>
+            <asp:Button ID="Button1" runat="server"  Text="Güncelle" CssClass="btn btn-primary" OnClick="Button1_Click"/>
         </div>
     </formview>
 </asp:Content>
